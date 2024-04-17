@@ -1,0 +1,23 @@
+:root{
+    --backgroundPage-color:#F3F5FC;
+    --backgroundColor-about:#EAF2FD;
+    --input-color:#0A3871;
+    --footer-color:#176B87;
+    --color-text-gray:#495057;
+    --color-text-answers:#343A40;
+    --color-button-primary:#0A3871;
+    --color-button-secondary:#D8DFE8;
+    --color-button-secondary-hover: #1D24CA;
+
+}
+body{
+    background-color: var(--backgroundPage-color);
+    font-family: Inter;
+    color: vae(--color-text-gray)
+}
+.about{
+    background-color: var(--backgroundColor-about) ;
+}
+@media (max-width:400px){
+
+}
